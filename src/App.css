@@ -1,0 +1,78 @@
+html{
+  font-size: 10px;
+
+}
+*{
+  box-sizing: border-box;
+
+}
+.App {
+  text-align: center;
+  align-items: center;
+  margin:4px;
+}
+.App>.Header
+{
+  font-size: 4rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Header>img{
+  width: 20rem;
+  margin-left:8px;
+}
+.App>.Store
+{
+ margin-top: 60px;
+ max-width: 100%;
+ height:auto;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+ justify-content: center;
+ box-shadow:1px 1px 5px rgba(0,0,0,0.25);
+ border-radius: 10px;
+ padding: 2rem 4rem;
+ order:2;
+}
+.Store>.ShopCard
+{
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.25);
+  margin: 2rem;
+  width: 30rem;
+}
+.ShopCard>.brandLogo
+{
+  display: flex;
+  justify-content: space-around;
+}
+.brandLogo>img{
+  width:6rem;
+}
+.ShopCard>.Accesories-Count{
+  display: flex;
+  justify-content: center;
+}
+.Accesories-Count>.outOfStock
+{
+  color:red;
+}
+.ShopCard>.BuyButton
+{
+  width:9rem;
+  height:4rem;
+  border-radius: 8px;
+  border:none;
+  color:white;
+  background-color:#b15e2f;
+  cursor: pointer;
+  
+}
+.BuyButton:hover
+{
+  background-color:#b48163;
+
+}
